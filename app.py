@@ -16,7 +16,7 @@ model_columns = joblib.load("model_columns.pkl")
 # =========================
 @app.route("/")
 def home():
-    return "StockFlow AI is running 🚀"
+    return "StockFlow AI is running"
 
 # =========================
 # PREDICT
